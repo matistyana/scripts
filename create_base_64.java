@@ -1,11 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-
-//import java.io.FileInputStream;
-//import java.io.FileNotFoundException;
-//import java.io.IOException;
-//import java.nio.charset.StandardCharsets;
-//import java.util.Base64;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 
@@ -21,6 +15,5 @@ class Test {
 
     public static void main(String[] args) throws IOException {
         convertAndPrintBytes();
-        // System.out.println("My First Java Program.");
     }
 };
